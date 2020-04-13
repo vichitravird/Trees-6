@@ -53,3 +53,25 @@ as "[1,2,3,null,null,4,5]"
 Clarification: The above format is the same as how LeetCode serializes a binary tree. You do not necessarily need to follow this format, so please be creative and come up with different approaches yourself.
 
 Note: Do not use class member/global/static variables to store states. Your serialize and deserialize algorithms should be stateless.
+
+
+## Problem3: Invert a Binary Tree(https://leetcode.com/problems/invert-binary-tree/)
+
+nvert a binary tree.
+
+Example:
+
+Input:
+
+     5
+   /   \
+  2     7
+   \   / \
+    3 6   9
+Output:
+
+     5
+   /   \
+  7     2
+ / \   /
+9   6 3  
